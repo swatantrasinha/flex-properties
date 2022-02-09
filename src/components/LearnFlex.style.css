@@ -1,0 +1,28 @@
+.card-heading {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.card-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-wrapper {
+    display: flex;
+    flex: 1 1 100px;
+}
+.card-data {
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.card-name-data, .card-email-data {
+    border: 1px solid #000;
+    display: flex;
+    flex: 1 1 auto;
+}
